@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.thomaszwarts.betterjukebox.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "JukeboxBlockTileEntityMixin",
+    "JukeboxBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "betterjukebox.mixin-refmap.json"
+}
